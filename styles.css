@@ -138,6 +138,7 @@
 
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .whychoosingus__content {
@@ -160,8 +161,8 @@
     max-width: 425px;
 }
 .whychoosingus__content__icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
     margin-left: 20px;
     margin-top: 16px;
@@ -268,6 +269,7 @@
     position: relative;
     left: 52px;
     height: 400px;
+    top: 20px;
 
 }
 
@@ -737,6 +739,11 @@
     .whychoosingus__content__1 {
         max-width: none;
     }
+    .whychoosingus__content__icon {
+        width: 28px; 
+        height: 28px;
+        
+    }
     #whychoosingus {margin-top:20px ;}
 
 
@@ -753,6 +760,9 @@
         gap: 10px;
     }
     .product__content__chair {
+        width: 40%;
+    }
+    .product__content__star {
         width: 40%;
     }
 
@@ -806,5 +816,8 @@
     }
     .footer__content p {
         margin-bottom: 20px;
+    }
+    .footer__detail h6 {
+        margin-top: 100px;
     }
 }
