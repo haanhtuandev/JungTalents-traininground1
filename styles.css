@@ -563,38 +563,35 @@
     }
     .whychoosingus__content__2,
     .whychoosingus__content__3,
-    .whychoosingus__content__4 {margin-top: 20px;}
-    .whychoosingus__content__1 h5,
-    .whychoosingus__content__1 h4,
-    .whychoosingus__content__1 p{
-        font-size: 12px;
-        margin-top: 10px;
-        margin-left: 10px;
+    .whychoosingus__content__4 {
+        margin-top:20px ;
     }
+    .whychoosingus__content__wrap {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .whychoosingus__content__wrap h5 {
+        margin-top: 15px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .whychoosingus__content__wrap h4 {
+        margin-left: 0px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .whychoosingus__content__wrap p {
+        margin-top: 10px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    
     .whychoosingus__content__icon {
-        margin-left:10px ;
         margin-top: 10px;
+        margin-left: 0px;
     }
-    .whychoosingus__content__2 h5,
-    .whychoosingus__content__2 h4,
-    .whychoosingus__content__2 p{
-        font-size: 12px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }    .whychoosingus__content__3 h5,
-    .whychoosingus__content__3 h4,
-    .whychoosingus__content__3 p{
-        font-size: 12px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .whychoosingus__content__4 h5,
-    .whychoosingus__content__4 h4,
-    .whychoosingus__content__4 p{
-        font-size: 12px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
+
 
     .visualise__details h1 {
         font-size: 18px;
@@ -753,6 +750,10 @@
 
     .product__content {
         flex-wrap: wrap;
+        gap: 10px;
+    }
+    .product__content__chair {
+        width: 40%;
     }
 
     #whattheysay__customers {
@@ -761,23 +762,49 @@
     }
     .whattheysay__title {
         margin-bottom:40px ;
+        padding-top: 40px;
+    }
+    .whattheysay {
+        padding-bottom: 88px;
+        background: linear-gradient(315deg, #FFF 0%, #FAF5F2 100%);
     }
 
     .homey__content {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 0px;
+
     }
+    .homey__content__emailbar {
+        margin-top: 20px;
+    }
+    .homey__content__detail h1 {
+        margin-bottom: 20px ;
+        margin-top: 40px;
+    }
+    
     .homey__content__image {
         width: auto;
     }
+
     .footer__detail {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+
         margin-left: 20px;
+        padding-top: 20px;
+        gap: 40px;
     }
     .footer__logo {
-        padding-bottom: 40px;
+
+        width: 124px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+    .footer__content h1 {
+        margin-bottom: 10px;
+    }
+    .footer__content p {
+        margin-bottom: 20px;
     }
 }
